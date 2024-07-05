@@ -1,0 +1,135 @@
+<body>
+<h1 style="font-size:40px;text-align:center;color:red;">GEETHANJALI INSTITUTE OF SCIENCE AND TECHNOLOGY</h1>
+ <div class="logo">
+ <img src="C:/Users/eswar/OneDrive/Desktop/collegelogo.jpg" alt="College Logo">
+ </div>
+<head>
+<style>
+body{
+margin:0;
+padding:0;
+background-color:#87CEEB;
+font-family: Helvetica, Arial, sans-serif;
+}
+.logo {
+text-align: center;
+margin-top: 40px;
+}
+.logo img {
+            width: 200px; /* Adjust based on your logo size */
+            height: 200px; /* Ensuring the image is a square */
+            border-radius: 75%; /* Makes the image circular */
+            object-fit: cover; /* Ensures the image covers the element */
+        }
+.nav ul{
+list-style:none;
+background:#663366;
+text-align:center;
+padding:0;
+margin:0;
+}
+.nav li{
+display:inline-block;
+}
+.nav a{
+text-decoration:none;
+color:#fff;
+width:150px;
+display:block;
+padding:12px;
+font-size:17px;
+font-family:Helvetica;
+}
+
+.nav a:hover{
+background:#000;
+transition:0.6s;
+}
+
+</style>
+</head>
+<body>
+<div class="nav">
+<ul>
+<li><a style="padding-right:20px;"href="home.html">HOME</a></li>
+<li><a style="padding-right:20px;"href="abstract.html">ABSTRACT</a></li>
+<li><a style="padding-right:20px;"href="introduction.html">INTRODUCTION</a></li>
+<li><a style="padding-right:20px;"href="impacts.html">IMPACTS</a></li>
+<li><a style="padding-right:20px;"href="questionnaire.html">QUESTIONNAIRE</a></li>
+<li><a style="padding-right:20px;"href="graphdetails.html">GRAPH DETAILS</a></li>
+<li><a style="padding-right:20px;"href="conclusion.html">CONCLUSION</a></li>
+</ul>
+</div>
+</body>
+</div>
+<h1 style="font-size:30px;text-align:center;color:green;">IMPACT OF MOBILE PHONES ON CHILDREN</h1>
+
+
+<h1 style="font-size:40px;text-align:center;color:blue;">GRAPH DETAILS</h1>
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+
+        var data = google.visualization.arrayToDataTable([
+          ['Task', 'count for what purpose do children use mobile phones'],
+          ['Education',    15 ],
+          ['Reels',      17],
+          ['Movies',  7],
+          ['Games', 8],
+        ]);
+
+        var options = {
+          title: 'FOR WHAT PURPOSE DO CHILDREN USE MOBILE PHONES '
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart'));
+
+        chart.draw(data, options);
+      }
+    </script>
+ <body>
+<center>
+    <div id="piechart" style="width: center; height: 500px;border:3px solid black;width:50%;"></div>
+  </center>
+</body>
+<br>
+ <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load("current", {packages:["corechart"]});
+      google.charts.setOnLoadCallback(drawChart);
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Impacts', 'Count'],
+          ['Disrupted sleep',     2],
+          ['Eye strain',   10   ],
+          ['Increased risk of radiation',  2],
+          ['Reduced creativity', 2],
+          ['Lower academic performance',    15],
+          ['Decreased Focus', 4],
+          ['cyberbullying', 2],
+          ['Accidents', 7],
+          ['Bad posture',4 ],
+        ]);
+
+        var options = {
+          title: 'IMPACTS OF MOBILE PHONES ON CHILDREN',
+          is3D: true,
+        };
+
+        var chart = new google.visualization.PieChart(document.getElementById('piechart_3d'));
+        chart.draw(data, options);
+      }
+    </script>
+ <body>
+<center>
+    <div id="piechart_3d" style="width: center; height: 500px;border:3px solid black;width:50%"></div>
+  </center>
+</body>
+<br>
+<br>
+<div style="text-align:center;"><a style="font-size:20px;background-color:red;padding:15px 35px 15px 35px;color:white;"href="https://1drv.ms/w/s!AmVKsyK7kMJOhRBomYEexI_gRWQK?e=R0Kmak">KNOW MORE</a></div>
+
+</body>
